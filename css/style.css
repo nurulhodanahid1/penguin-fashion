@@ -1,0 +1,57 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.header-bg{
+    background-color: #FFFBF0;
+}
+.single-link{
+    color: #3C3C3C;
+    font-weight: 700;
+}
+.single-item{
+    padding: 0 20px;
+}
+.single-link:hover,.active-link{
+    color: #A4B54D;
+}
+.menu-bars i{
+    color: #373A58;
+    font-size: 25px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.highlight-1,
+.highlight-2{
+    font-size: 70px;
+    letter-spacing: -4px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.highlight-1{
+    color: #FABE4C;
+}
+.highlight-2{
+    color: #363958;
+}
+.buy-button{
+    background-color: #9BB439;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 15px 30px;
+    border: 2px solid #9BB439;
+}
+.buy-button:hover{
+    background-color: #FFFBF0;
+    color: #9BB439;
+    border: 2px solid #9BB439;
+}
+
+@media all and (max-width: 768px) {
+	.banner-left{
+        margin-bottom: 40px;
+    }
+}

@@ -6,10 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1> hi Penfuidd fafhiol</h1>
+    <header class="header-bg">
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img width="300" src="images/penguin-fashion.png" alt="penguin-fashion"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon menu-bars d-flex align-items-center justify-content-center"><i class="fas fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item single-item">
+                    <a class="nav-link active active-link single-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item single-item">
+                    <a class="nav-link single-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item single-item">
+                    <a class="nav-link single-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item single-item">
+                    <a class="nav-link single-link" href="#">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <section class="penguin-banner container pt-4">
+            <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-6 d-flex align-items-center">
+                      <div class="banner-left">
+                          <h1><span class="highlight-1">be the penguins</span><br><span class="highlight-2">of winter</span></h1>
+                          <p>Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry.</p>
+                          <a href="#" class="btn buy-button"><i class="fas fa-shopping-cart"></i> buy now</a>
+                      </div>
+                  </div>
+                  <div class="banner-right col-md-6">
+                      <img width="97%" height="97%" src="images/penguin-woman.png" alt="penguin woman fashion">
+                  </div>
+              </div>
+            </div>
+        </section>
+    </header>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
